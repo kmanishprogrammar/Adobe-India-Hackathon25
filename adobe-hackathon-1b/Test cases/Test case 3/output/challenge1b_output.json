@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Chapter 4.pdf",
+      "Chapter 3.pdf",
+      "Chapter 5.pdf",
+      "Chapter 1.pdf",
+      "Chapter 2.pdf"
+    ],
+    "persona": {
+      "role": "Undergraduate Chemistry Student",
+      "expertise": "Organic Chemistry"
+    },
+    "job_to_be_done": {
+      "task": "Identify key concepts and mechanisms for exam preparation on reaction kinetics",
+      "focus": [
+        "key concepts",
+        "reaction mechanisms",
+        "reaction kinetics"
+      ]
+    },
+    "processing_timestamp": "2025-07-28T17:32:07.268591"
+  },
+  "extracted_sections": [
+    {
+      "document": "Chapter 3.pdf",
+      "page_number": 1,
+      "section_title": "understanding. For example, which parameters",
+      "importance_rank": 1
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "page_number": 1,
+      "section_title": "After studying this Unit, you will be",
+      "importance_rank": 2
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "page_number": 1,
+      "section_title": "Along with feasibility and extent, it is equally",
+      "importance_rank": 3
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "page_number": 1,
+      "section_title": "Thermodynamics tells only about the feasibility of a",
+      "importance_rank": 4
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "page_number": 2,
+      "section_title": "RRRRReeeeeaaaaaccccctttttiiiiiooooonnnnn",
+      "importance_rank": 5
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "page_number": 1,
+      "section_title": "different properties. For any chemical reaction, chemists",
+      "importance_rank": 6
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "page_number": 1,
+      "section_title": "Reprint 2025-26",
+      "importance_rank": 7
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "page_number": 1,
+      "section_title": "chemical kinetics. The word kinetics is derived from",
+      "importance_rank": 8
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "page_number": 10,
+      "section_title": "Bimolecular reactions involve simultaneous collision between two",
+      "importance_rank": 9
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "page_number": 9,
+      "section_title": "3.2.4 Molecularity Another property of a reaction called molecularity helps in",
+      "importance_rank": 10
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Chapter 3.pdf",
+      "section_title": "understanding. For example, which parameters",
+      "refined_text": "determine as to how rapidly food gets spoiled? How\nto design a rapidly setting material for dental filling?\nOr what controls the rate at which fuel burns in an\nauto engine? All these questions can be answered by\nthe branch of chemistry, which deals with the study\nof reaction rates and their mechanisms, called\n",
+      "page_number": 1
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "section_title": "After studying this Unit, you will be",
+      "refined_text": "able to\n• define the average and\nChemical Kinetics helps us to understand how chemical reactions\ninstantaneous rate of a reaction; occur.\n• express the rate of a reaction in\nterms of change in concentration\nChemistry, by its very nature, is concerned with change.\nof either of the reactants or\n",
+      "page_number": 1
+    },
+    {
+      "document": "Chapter 3.pdf",
+      "section_title": "Along with feasibility and extent, it is equally",
+      "refined_text": "• determine the rate constants for\nimportant to know the rate and the factors controlling\nzeroth and first order reactions;\nthe rate of a chemical reaction for its complete\n• describe collision theory.\n",
+      "page_number": 1
+    }
+  ]
+}

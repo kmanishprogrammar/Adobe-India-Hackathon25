@@ -1,0 +1,43 @@
+{
+  "document_collection": [
+    {
+      "file_name": "Annual_Report_2022_bioMérieux.pdf.coredownload.pdf"
+    },
+    {
+      "file_name": "bioMérieux-2023-Annual-Report.pdf.coredownload.pdf"
+    },
+    {
+      "file_name": "BIOMERIEUX_ANNUAL-REPORT_2024_EN.pdf.coredownload.pdf"
+    },
+    {
+      "file_name": "CREST-Annual-Report-2022.pdf"
+    },
+    {
+      "file_name": "CREST-Annual-Report-2023.pdf"
+    },
+    {
+       "file_name": "CREST-Annual-Report-2024.pdf"
+    },
+    {
+      "file_name": "AR2122.pdf"
+    },
+    {
+      "file_name": "ar-ra-2022-23-en.pdf"
+    },
+    {
+      "file_name": "ar-ra-2023-2024-doc-en.pdf"
+    }
+  ],
+  "persona": {
+    "role": "Investment Analyst",
+    "expertise": "Technology and Healthcare Sectors"
+  },
+  "job_to_be_done": {
+    "task": "Analyze revenue trends, R&D investments, and market positioning strategies",
+    "focus": [
+      "revenue trends",
+      "R&D investments",
+      "market positioning strategies"
+    ]
+  }
+}

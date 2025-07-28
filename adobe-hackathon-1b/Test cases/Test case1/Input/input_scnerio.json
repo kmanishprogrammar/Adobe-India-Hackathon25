@@ -1,0 +1,28 @@
+{
+  "document_collection": [
+    {
+      "file_name": "s10462-023-10669-z.pdf"
+    },
+    {
+      "file_name": "2111.12951v1.pdf"
+    },
+    {
+      "file_name": "Graph_Neural_Networks_for_Drug_Discovery_An_Integrated_Decision_Support_Pipeline.pdf"
+    },
+    {
+      "file_name": "fphar-15-1393415.pdf"
+    }
+  ],
+  "persona": {
+    "role": "PhD Researcher",
+    "expertise": "Computational Biology"
+  },
+  "job_to_be_done": {
+    "task": "Prepare a comprehensive literature review",
+    "focus": [
+      "methodologies",
+      "datasets",
+      "performance benchmarks"
+    ]
+  }
+}

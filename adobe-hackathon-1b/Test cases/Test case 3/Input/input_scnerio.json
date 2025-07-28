@@ -1,0 +1,31 @@
+{
+  "document_collection": [
+    {
+      "file_name": "Chapter 1.pdf"
+    },
+    {
+      "file_name": "Chapter 2.pdf"
+    },
+    {
+      "file_name": "Chapter 3.pdf"
+    },
+    {
+      "file_name": "Chapter 4.pdf"
+    },
+    {
+      "file_name": "Chapter 5.pdf"
+    }
+  ],
+  "persona": {
+    "role": "Undergraduate Chemistry Student",
+    "expertise": "Organic Chemistry"
+  },
+  "job_to_be_done": {
+    "task": "Identify key concepts and mechanisms for exam preparation on reaction kinetics",
+    "focus": [
+      "key concepts",
+      "reaction mechanisms",
+      "reaction kinetics"
+    ]
+  }
+}

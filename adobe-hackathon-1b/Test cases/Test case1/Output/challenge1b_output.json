@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Graph_Neural_Networks_for_Drug_Discovery_An_Integrated_Decision_Support_Pipeline.pdf",
+      "fphar-15-1393415.pdf",
+      "2111.12951v1.pdf",
+      "s10462-023-10669-z.pdf"
+    ],
+    "persona": {
+      "role": "PhD Researcher",
+      "expertise": "Computational Biology"
+    },
+    "job_to_be_done": {
+      "task": "Prepare a comprehensive literature review",
+      "focus": [
+        "methodologies",
+        "datasets",
+        "performance benchmarks"
+      ]
+    },
+    "processing_timestamp": "2025-07-28T17:32:36.662282"
+  },
+  "extracted_sections": [
+    {
+      "document": "fphar-15-1393415.pdf",
+      "page_number": 11,
+      "section_title": "Year/Journal) citations citations",
+      "importance_rank": 1
+    },
+    {
+      "document": "fphar-15-1393415.pdf",
+      "page_number": 14,
+      "section_title": "frequently receives citations alongside the Journal of Chemical",
+      "importance_rank": 2
+    },
+    {
+      "document": "fphar-15-1393415.pdf",
+      "page_number": 11,
+      "section_title": "CentralSci",
+      "importance_rank": 3
+    },
+    {
+      "document": "fphar-15-1393415.pdf",
+      "page_number": 9,
+      "section_title": "fieldandhaveagreatimpactonitsdevelopment.15outof652papers 3.7 Keyword analysis",
+      "importance_rank": 4
+    },
+    {
+      "document": "2111.12951v1.pdf",
+      "page_number": 6,
+      "section_title": "2021.",
+      "importance_rank": 5
+    },
+    {
+      "document": "fphar-15-1393415.pdf",
+      "page_number": 8,
+      "section_title": "3 JournalofChemicalInformationAndModeling 16 996 38 2019 5.6 Q1",
+      "importance_rank": 6
+    },
+    {
+      "document": "s10462-023-10669-z.pdf",
+      "page_number": 12,
+      "section_title": "4.1 Datasets",
+      "importance_rank": 7
+    },
+    {
+      "document": "Graph_Neural_Networks_for_Drug_Discovery_An_Integrated_Decision_Support_Pipeline.pdf",
+      "page_number": 2,
+      "section_title": "aided Drug Discovery, Neural Networks, Molecular Graph Gen-",
+      "importance_rank": 8
+    },
+    {
+      "document": "fphar-15-1393415.pdf",
+      "page_number": 2,
+      "section_title": "AsGNNtechnologyisincreasinglyappliedtothedrugdiscovery 2.1 Data sources",
+      "importance_rank": 9
+    },
+    {
+      "document": "fphar-15-1393415.pdf",
+      "page_number": 6,
+      "section_title": "FIGURE3",
+      "importance_rank": 10
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "fphar-15-1393415.pdf",
+      "section_title": "frequently receives citations alongside the Journal of Chemical",
+      "refined_text": "Information Models, Brief Bioinformatics, and Nucleic Acids 4.2 Research hot spots and trends\nResearch, indicating their high relevance in this field.\nAdditionally, Bioinformatics and the Journal of Chemical Inbibliometricstudies,papercitationanalysisisanimportant\nInformation Models ranked among the top three in terms of tool to identify important papers, evaluate research progress, and\npublished papers, demonstrating their great influence, and these predict research development frontiers. Highly cited papers are\njournalshaveahigherlikelihoodofbeingcitedforresearchpapers typically high-quality studies with strong innovation and\nrelated to GNNapplications. significant impact. It is worth mentioning that the number of\nFigure 5B is a double-graph overlay of journals. The left side local citations is one of the important indicators to measure the\nrepresentsthebasicdisciplinesofthecitingjournals,alsoreferredto influenceofapaper,whichreflectstheimportanceofresearchersin\nastheknowledgefrontier,whiletherightsiderepresentsthesubject thesamefield.Table7displaysthetop10highlycitedpapers,each\ndiscipline of the cited journal, also known as the knowledge base. withmorethan100globalcitationsandfourwithmorethan50local\nThedouble-graphsuperpositiongraphofthejournalcanshowthe citations. Among these, the research paper “Modeling\nreference relationship between the knowledge frontier and the Polypharmacy Side Effects with Graph Convolutional Networks”\nknowledge foundation when the GNN is applied to drug research publishedinBioinformaticswascited526times,whichiscurrently\nfrom a macro perspective and grasp the historical trajectory of themostcitedandwastheonlypaperpublishedinthefieldin2018.\ndiscipline development. Figure 5B clearly displays two prominent Inthepaper,theauthorsproposeaDecagonmodelforpredicting\nyellowlines,symbolizingtheprimarycitationpathwaysinthisfield. sideeffectsexhibitedbydrugcombinationsinclinicalsettingsusing\nThe themes on the cited side (right side), Theme 4 graph convolutional neural networks. Altae-Tran H published\n(#4 CHEMISTRY, MATERIALS, PHYSICS), and Theme 8 another paper in 2017 that received nearly 400 citations,\n(#8 MOLECULAR, BIOLOGY, GENETICS), were cited 769 and introducing a new architecture that, when combined with GCN,\n1436times,respectively,bythethemesonthecitingside(leftside), showed significant improvements in low-data predictive power in\nTheme 4 (#4 MOLECULAR, BIOLOGY, IMMUNOLOGY). The drugdiscovery.Inthirdplacewasapaperpublishedin2020about\ntwosubjecttopicsconvergeintoonesubjectonthecitedside,and the application of graph attention mechanisms in drug discovery\nthe development pattern of the subject shows a confluence state, anddevelopment.However,withtheincreasingapplicationofGNN\n",
+      "page_number": 14
+    },
+    {
+      "document": "fphar-15-1393415.pdf",
+      "section_title": "CentralSci",
+      "refined_text": "3 XiongZp,2020,JMedChem pushingtheboundariesofmolecularrepresentationfordrugdiscovery 2020 273 72\nwiththegraphattentionmechanism\n4 TsubakiM,2019,Bioinformatics compound-proteininteractionpredictionwithend-to-endlearningof 2019 260 53\nneuralnetworksforgraphsandsequences\n5 NguyenT,2021,Bioinformatics graphdta:predictingdrug-targetbindingaffinitywithgraphneural 2021 215 61\nnetworks\n6 SunMy,2020,BriefBioinform graphconvolutionalnetworksforcomputationaldrugdevelopmentand 2020 182 48\ndiscovery\n7 LiY,2019,Methods deeplearninginbioinformatics:introduction,application,and 2019 168 1\nperspectiveinthebigdataera\n8 LimJ,2019,JChemInfModel predictingdrug-targetinteractionusinganovelgraphneuralnetwork 2019 166 35\nwith3daysstructure-embeddedgraphrepresentation\n9 JiangDj,2021,JCheminformatics couldgraphneuralnetworkslearnbettermolecularrepresentationfor 2021 166 26\ndrugdiscovery?acomparisonstudyofdescriptor-basedandgraph-based\nmodelsSource\n10 TorngW,2019,JChemInfModel graphconvolutionalneuralnetworksforpredictingdrug-target 2019 153 42\ninteractions\n",
+      "page_number": 11
+    }
+  ]
+}

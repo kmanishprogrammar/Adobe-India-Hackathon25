@@ -1,0 +1,60 @@
+{
+  "title": "test_complex.pdf",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Annual Business Report 2024 ",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Executive Summary ",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Key Findings ",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Financial Performance ",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Revenue Analysis ",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Q1 Performance ",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Q2 Performance ",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Cost Structure ",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": " ",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Market Analysis ",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Competitive Landscape ",
+      "page": 4
+    }
+  ]
+}
