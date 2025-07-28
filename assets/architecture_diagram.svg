@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">System Architecture</text>
+  
+  <!-- Input Layer -->
+  <rect x="50" y="100" width="700" height="100" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" rx="5" ry="5"/>
+  <text x="400" y="120" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">Input Layer</text>
+  
+  <!-- Input Components -->
+  <rect x="80" y="140" width="120" height="40" fill="#ffffff" stroke="#2196f3" stroke-width="1" rx="3" ry="3"/>
+  <text x="140" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">PDF Documents</text>
+  
+  <rect x="230" y="140" width="120" height="40" fill="#ffffff" stroke="#2196f3" stroke-width="1" rx="3" ry="3"/>
+  <text x="290" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Persona Definition</text>
+  
+  <rect x="380" y="140" width="120" height="40" fill="#ffffff" stroke="#2196f3" stroke-width="1" rx="3" ry="3"/>
+  <text x="440" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Job-to-be-done</text>
+  
+  <rect x="530" y="140" width="190" height="40" fill="#ffffff" stroke="#2196f3" stroke-width="1" rx="3" ry="3"/>
+  <text x="625" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Input JSON Configuration</text>
+  
+  <!-- Processing Layer -->
+  <rect x="50" y="220" width="700" height="220" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="5" ry="5"/>
+  <text x="400" y="240" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">Processing Layer</text>
+  
+  <!-- Core Components -->
+  <rect x="80" y="270" width="200" height="150" fill="#ffffff" stroke="#4caf50" stroke-width="1" rx="3" ry="3"/>
+  <text x="180" y="290" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">PDF Processor</text>
+  <text x="180" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Text Extraction</text>
+  <text x="180" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Section Identification</text>
+  <text x="180" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Parallel Processing</text>
+  <text x="180" y="375" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Caching</text>
+  <text x="180" y="395" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Batch Processing</text>
+  
+  <rect x="300" y="270" width="200" height="150" fill="#ffffff" stroke="#4caf50" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="290" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Semantic Matching</text>
+  <text x="400" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Sentence Transformer</text>
+  <text x="400" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Embedding Generation</text>
+  <text x="400" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Cosine Similarity</text>
+  <text x="400" y="375" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Relevance Ranking</text>
+  
+  <rect x="520" y="270" width="200" height="150" fill="#ffffff" stroke="#4caf50" stroke-width="1" rx="3" ry="3"/>
+  <text x="620" y="290" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Subsection Analysis</text>
+  <text x="620" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Paragraph Extraction</text>
+  <text x="620" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Relevance Filtering</text>
+  <text x="620" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Content Refinement</text>
+  <text x="620" y="375" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Top-K Selection</text>
+  
+  <!-- Model Layer -->
+  <rect x="200" y="460" width="400" height="60" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="5" ry="5"/>
+  <text x="400" y="480" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">Model Layer</text>
+  <text x="400" y="505" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">all-MiniLM-L6-v2 Sentence Transformer</text>
+  
+  <!-- Output Layer -->
+  <rect x="50" y="540" width="700" height="40" fill="#fce4ec" stroke="#e91e63" stroke-width="2" rx="5" ry="5"/>
+  <text x="400" y="565" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#c2185b">JSON Output</text>
+  
+  <!-- Arrows -->
+  <line x1="400" y1="200" x2="400" y2="220" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="440" x2="400" y2="460" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="520" x2="400" y2="540" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Component Connections -->
+  <line x1="280" y1="345" x2="300" y2="345" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="345" x2="520" y2="345" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow Definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
